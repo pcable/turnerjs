@@ -5,8 +5,7 @@
     "release": "node_modules/wix-gruntfile/scripts/release.sh",
     "test": "grunt build",
     "start": "grunt serve",
-    "build": ":",
-    "postinstall": "node_modules/wix-gruntfile/scripts/postinstall.sh || true"
+    "build": ":"
   },
   "repository": {
     "type": "git",
